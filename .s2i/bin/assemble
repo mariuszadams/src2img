@@ -12,7 +12,7 @@ echo "***"
 echo "***"
 echo "*** $TEST ***"
 echo "---> Installing application source"
-cat index.html
+cat /tmp/src/index.html
 cp -vRaf /tmp/src/. ./
 mkdir ./i
 DATE=$(date "+%D %T")
